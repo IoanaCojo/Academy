@@ -1,0 +1,14 @@
+.header{
+    background-color: ivory;
+    width: 100%;
+    height: 64;
+    position:fixed;
+    z-index: 1;
+}
+.header .container{
+    display:inline-flex;
+    flex-flow:row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
